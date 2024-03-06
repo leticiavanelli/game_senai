@@ -6,6 +6,10 @@ class Obj{
         this.h = h
         this.a = a
     }
+    des_obj(){
+        des.fillStyle = this.a
+        des.fillRect(this.x,this.y,this.w,this.h,this.a)
+    }
 }
 class Carro extends Obj{
     dir = 0
